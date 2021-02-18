@@ -1,0 +1,407 @@
+@charset "utf-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* body and containers */
+
+body {
+    background-color: #050b14;
+}
+
+#container {
+    width: 1196px;
+    height: auto;
+    margin: auto;
+    background-color: #050b14;
+}
+
+#container2 {
+    width: 1196px;
+    height: auto;
+    margin: auto;
+    background-color: #f0dddc;
+}
+
+/* Header */
+
+header {
+    width: 1196px;
+    height: 80px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 80px 0 80px;
+}
+
+.header2 {
+    width: 1196px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px 0 80px;
+}
+
+nav {
+    height: 30px;
+    width: 400px;
+}
+
+.navlist {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.botaonav {
+    text-decoration: none;
+    color: #f0dddc;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 24px;
+}
+
+.botaonav:hover {
+    color: #d3417f;
+}
+
+.botaonav2 {
+    text-decoration: none;
+    color: #f0dddc;
+    background-color: #d3417f;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 24px;
+    padding: 3px 20px;
+    border-radius: 100px;
+    display: flex;
+    align-self: center;
+}
+
+.botaonav2:hover {
+    color: #050b14;
+}
+
+.botaonav1 {
+    text-decoration: none;
+    color: #050b14;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 24px;
+}
+
+.botaonav1:hover {
+    color: #d3417f;
+}
+
+.botaonavhome {
+    text-decoration: none;
+    color: #050b14;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 32px;
+}
+
+.botaonavhome:hover {
+    color: #d3417f;
+}
+
+/* Sections */
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1196px;
+    height: auto;
+}
+
+.sectionblue {
+    background-color: #050b14;
+    height: 768px;
+    width: 1196px;
+    padding: 0 80px 0 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sectionwhite {
+    background-color: #f0dddc;
+    height: 768px;
+    width: 1196px;
+    padding: 0 80px 0 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sectionvideo {
+    background-color: #050b14;
+    height: 672.75px;
+    width: 1196px;
+}
+
+.shopsection {
+    height: 548px;
+    width: 1196px;
+    padding: 0 80px 0 80px;
+    background-color: #f0dddc;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#shopsections {
+    margin-bottom: 60px;
+}
+
+/* Home Page */
+
+#title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.title {
+    position: relative;
+    text-align: center;
+  }
+
+.column {
+    width: 508px;
+    height: auto;
+
+}
+
+.textcolumn {
+    width: 508px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#iframevideo {
+    width: 100%;
+    height: 100%;
+}
+
+/* Sign Up*/
+
+.signup {
+    background-color: #050b14;
+    height: 400px;
+    width: 1196px;
+    padding: 0 80px 0 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.email {
+    width: 508px;
+    background-color: #050b14;
+    border: none;
+    border-bottom: 3px solid #d3417f;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.submit {
+    width: 100px;
+    height: 40px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 24px;
+    background-color: #d3417f;
+    color: #f0dddc;
+    border: none;
+    border-radius: 100px;
+    text-align: center;
+}
+
+.email:hover {
+    border-bottom: 3px solid #f0dddc;
+}
+
+.email:active {
+    border-bottom: 3px solid #f0dddc;
+}
+
+.submit:hover {
+    color:#050b14;
+}
+
+ /* Shop Page */
+
+#shopid {
+    display: flex;
+    justify-content: center;
+}
+
+.square {
+    background-color: #fff;
+    height: 508px;
+    width: 508px;
+}
+
+.minisquare {
+    background-color: #fff;
+    height: 244px;
+    width: 244px;
+}
+
+.rectangle {
+    background-color: #fff;
+    height: 508px;
+    width: 244px;
+}
+
+.columnsquare508 {
+    height: 508px;
+    width: 508px;
+}
+
+.columnsquare244 {
+    height: 508px;
+    width: 244px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.columnrectangle {
+    height: 508px;
+    width: 244px;
+}
+
+  /* Types */
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 140px;
+    letter-spacing: 3px;
+    color: #f0dddc;
+}
+
+.h1blue {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 140px;
+    letter-spacing: 3px;
+    color: #050b14;
+}
+
+.h1pink {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 140px;
+    letter-spacing: 3px;
+    color: #d3417f;
+}
+
+.h11blue {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 180px;
+  letter-spacing: 3px;
+  color: #050b14;
+}
+
+.h2blue {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 120px;
+    color: #050b14;
+}
+
+.h2white {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 120px;
+    color: #f0dddc;
+}
+
+.h2pink {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 120px;
+    color: #d3417f;
+}
+
+.h2lightblue {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 120px;
+    color: #529FCE;
+}
+
+h3 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 110px;
+    color: #050b14;
+}
+
+.h4white {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 70px;
+    color: #f0dddc;
+}
+
+.h4blue {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 70px;
+    color: #050b14;
+}
+
+h5 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    color: #050b14;
+}
+
+.h5 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    color: #050b14;
+}
+
+h6 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 35px;
+    color: #050b14;
+}
+
+ /* Footer */
+
+footer {
+    background-color: #f0dddc;
+    width: 1196px;
+    height: 356px;
+    padding: 40px 80px 20px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footermap {
+    width: 508px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footertext {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.hfooter {
+    color: #050b14;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 24px;
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+
+.hfooter:hover {
+    color: #d3417f;
+}
