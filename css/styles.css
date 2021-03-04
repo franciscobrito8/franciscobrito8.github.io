@@ -375,7 +375,7 @@ h6 {
 footer {
     background-color: #f0dddc;
     width: 1196px;
-    height: 356px;
+    height: 366px;
     padding: 40px 80px 20px 80px;
     display: flex;
     justify-content: space-between;
@@ -383,7 +383,7 @@ footer {
 }
 
 .footermap {
-    width: 508px;
+    width: 366px;
     display: flex;
     justify-content: space-between;
 }
@@ -404,4 +404,9 @@ footer {
 
 .hfooter:hover {
     color: #d3417f;
+}
+
+#iframemap {
+    width: 508px;
+    height: 244px;
 }
